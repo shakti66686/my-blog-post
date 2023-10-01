@@ -8,7 +8,7 @@ const CategoryList = () => {
     <div className={style.container}>
       <h1 className={style.title}>Popular category</h1>
       <div className={style.categories}>
-        <Link href="/blog" className={`${style.category} ${style.style}`}>
+        <Link href="/" className={`${style.category} ${style.style}`}>
           <Image
             src="/style.png"
             alt=""
@@ -18,7 +18,7 @@ const CategoryList = () => {
           />
           style
         </Link>
-        <Link href="/blog" className={`${style.category} ${style.fashion}`}>
+        <Link href="/" className={`${style.category} ${style.fashion}`}>
           <Image
             src="/fashion.png"
             alt=""
@@ -28,7 +28,7 @@ const CategoryList = () => {
           />
           fashion
         </Link>
-        <Link href="/blog" className={`${style.category} ${style.food}`}>
+        <Link href="/" className={`${style.category} ${style.food}`}>
           <Image
             src="/food.png"
             alt=""
@@ -38,7 +38,7 @@ const CategoryList = () => {
           />
           food
         </Link>
-        <Link href="/blog" className={`${style.category} ${style.travel}`}>
+        <Link href="/" className={`${style.category} ${style.travel}`}>
           <Image
             src="/travel.png"
             alt=""
@@ -48,7 +48,7 @@ const CategoryList = () => {
           />
           travel
         </Link>
-        <Link href="/blog" className={`${style.category} ${style.culture}`}>
+        <Link href="/" className={`${style.category} ${style.culture}`}>
           <Image
             src="/culture.png"
             alt=""
@@ -58,7 +58,7 @@ const CategoryList = () => {
           />
           culture
         </Link>
-        <Link href="/blog" className={`${style.category} ${style.coding}`}>
+        <Link href="/" className={`${style.category} ${style.coding}`}>
           <Image
             src="/coding.png"
             alt=""
