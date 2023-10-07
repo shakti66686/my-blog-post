@@ -1,0 +1,40 @@
+.container {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.imageContainer {
+  position: relative;
+  height: 350px;
+}
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.image {
+  object-fit: cover;
+}
+.date {
+  color: grey;
+}
+.category {
+  color: crimson;
+  font-weight: 500;
+}
+.postDes {
+  font-size: 15px;
+  font-weight: 300;
+}
+.link {
+  border-bottom: 1px solid crimson;
+  width: max-content;
+  padding: 2px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .imageContainer {
+    display: none;
+  }
+}
