@@ -13,6 +13,8 @@ export const ThemeContextProvider = ({ children }) => {
     return getFromLocalStorage();
   });
   return (
-    <ThemeContext.Provider value={{ theme }}>{children}</ThemeContext.Provider>
+    <ThemeContext.Provider value={{ theme }}>
+      <>{children}</>
+    </ThemeContext.Provider>
   );
 };

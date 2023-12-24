@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+  color: orange;
+}
+.content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}

@@ -25,7 +25,7 @@ const AuthLink = () => {
         <div className={style.line}></div>
       </div>
       {open && (
-        <div className={style.reaponsiveMenu}>
+        <div className={style.responsiveMenu}>
           <Link href="/" className={style.burgerLink}>
             Homepage
           </Link>
@@ -35,7 +35,7 @@ const AuthLink = () => {
           <Link href="/" className={style.burgerLink}>
             Contact
           </Link>
-          {status === "notauthenticated" ? (
+          {status === "authenticated" ? (
             <Link href="/Login" className={style.burgerLink}>
               Login
             </Link>

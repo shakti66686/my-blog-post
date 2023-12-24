@@ -22,24 +22,24 @@ const Footer = () => {
       <div className={style.links}>
         <div className={style.list}>
           <span className={style.span}>Links</span>
-          <Link href="/">homepage</Link>
-          <Link href="/">blog</Link>
-          <Link href="/">about</Link>
-          <Link href="/">contact</Link>
+          <Link href="/">Homepage</Link>
+          <Link href="/">Blog</Link>
+          <Link href="/">About</Link>
+          <Link href="/">Contact</Link>
         </div>
         <div className={style.tag}>
-          <span className={style.span}>tag</span>
-          <Link href="/">style</Link>
-          <Link href="/">culture</Link>
-          <Link href="/">coding</Link>
-          <Link href="/">fashion</Link>
+          <span className={style.span}>Tag</span>
+          <Link href="/">Style</Link>
+          <Link href="/">Culture</Link>
+          <Link href="/">Coding</Link>
+          <Link href="/">Fashion</Link>
         </div>
         <div className={style.social}>
-          <span className={style.span}>social</span>
-          <Link href="/">facebook</Link>
-          <Link href="/">instagram</Link>
-          <Link href="/">tiktok</Link>
-          <Link href="/">youtube</Link>
+          <span className={style.span}>Social</span>
+          <Link href="/">Facebook</Link>
+          <Link href="/">Instagram</Link>
+          <Link href="/">Tiktok</Link>
+          <Link href="/">Youtube</Link>
         </div>
       </div>
     </div>

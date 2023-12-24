@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  width: 100%;
+}
+.loginContainer {
+  background-color: var(--softBg);
+  height: 50vh;
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.socialButton {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.socialButton:first-child {
+  background-color: #ff5555;
+}
+.socialButton:nth-child(2) {
+  background-color: black;
+}
+.socialButton:nth-child(3) {
+  background-color: #087bea;
+}
